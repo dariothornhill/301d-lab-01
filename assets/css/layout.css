@@ -1,0 +1,81 @@
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+}
+.box p {
+    position: relative;
+    top: 50%
+}
+
+header {
+    height: 75px;
+}
+
+.feature {
+    height: 150px;
+}
+
+
+.row1 {
+
+    height: 125px;
+}
+
+.grid-cell {
+    height: 250px;
+    width:50%;
+    max-width: 240px;
+    float: left;
+}
+
+footer {
+    clear: both;
+    height: 80px
+}
+
+@media screen and (min-width: 961px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .container header {
+        width: 960px;
+    }
+
+    .feature {
+        float: left;
+        height: 600px;
+        width:  200px;
+    }
+    main {
+        float:right;
+    }
+    
+
+    .row1 {
+        width: 380px;
+        height: 200px;
+        float: right;
+    }
+    .row1:first-child{
+        float: left;
+    }
+    /* main::after{
+        content: '';
+        clear: both;
+        display: table;
+    } */
+    .grid {
+        clear:both;
+    }
+    .grid-cell {
+        width: 190px;
+        float: left;
+    }
+    footer {
+        width: 760px;
+        height: 150px
+    }
+    
+}
