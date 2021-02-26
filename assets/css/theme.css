@@ -1,0 +1,16 @@
+.box {
+    background-color: grey;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 481px) {
+    .box {
+        background-color: greenyellow;
+    }
+}
+
+@media screen and (min-width: 961px) {
+    .box {
+        background-color: blue;
+    }
+}

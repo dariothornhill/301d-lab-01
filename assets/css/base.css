@@ -1,0 +1,7 @@
+section, header, footer {
+    text-align: center;
+    vertical-align: center;
+    border: solid 1px;
+    box-sizing: border-box;
+    padding: auto 0;
+}
